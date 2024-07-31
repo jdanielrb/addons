@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="01_graficos_view_action" model="ir.actions.act_window">
+        <field name="name">Gráficos</field>
+        <field name="res_model">ir.ui.menu</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="01_graficos_view_form" />
+        <field name="target">inline</field> <!-- Añadido para asegurar la carga correcta -->
+    </record>
+
+    <record id="02_pdf_view_action" model="ir.actions.act_window">
+        <field name="name">Herramientas PDF</field>
+        <field name="res_model">ir.ui.menu</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="02_pdf_view_form" />
+        <field name="target">inline</field> <!-- Añadido para asegurar la carga correcta -->
+    </record>
+</odoo>

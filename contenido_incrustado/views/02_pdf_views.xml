@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="02_pdf_view_form" model="ir.ui.view">
+        <field name="name">02_pdf.view_form</field>
+        <field name="model">ir.ui.menu</field>
+        <field name="arch" type="xml">
+            <form string="Contenido incrustado" class="background-image" create="false" edit="false"
+                delete="false">
+                <div>
+                    <h1>Contenido incrustado</h1>
+                    <div>
+                        <iframe src="https://pe.wtech-cs.com" width="100%" height="700"></iframe>
+                    </div>
+                </div>
+            </form>
+        </field>
+    </record>
+</odoo>
