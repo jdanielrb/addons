@@ -4,11 +4,11 @@
         <field name="name">01_graficos.view_form</field>
         <field name="model">ir.ui.menu</field>
         <field name="arch" type="xml">
-            <form string="Contenido incrustado" class="background-image main_div" create="false"
+            <form string="Contenido incrustado" class="background-image" create="false"
                 edit="false" delete="false">
-                <div id="uno" class="row col-md-12">
+                <div id="uno">
                     <div id="dos" class="row">
-                        <div id="tres" class="col-md-10">
+                        <div class="col-md-10">
                             <iframe src="http://localhost:8501" width="100%" height="100%"></iframe>
                         </div>
                         <div class="col-md-2">
