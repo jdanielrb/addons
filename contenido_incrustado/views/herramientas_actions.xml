@@ -5,7 +5,7 @@
         <field name="res_model">ir.ui.menu</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="01_graficos_view_form" />
-        <field name="target">inline</field> <!-- Añadido para asegurar la carga correcta -->
+        <field name="target">inline</field>
     </record>
 
     <record id="02_pdf_view_action" model="ir.actions.act_window">
@@ -13,6 +13,6 @@
         <field name="res_model">ir.ui.menu</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="02_pdf_view_form" />
-        <field name="target">inline</field> <!-- Añadido para asegurar la carga correcta -->
+        <field name="target">inline</field>
     </record>
 </odoo>

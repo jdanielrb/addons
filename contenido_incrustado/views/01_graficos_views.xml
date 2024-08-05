@@ -6,11 +6,6 @@
         <field name="arch" type="xml">
             <form string="Contenido incrustado" class="background-image" edit="false"
                 delete="false">
-
-                <header>
-                    <button name="create" string="Asistencias" type="object" class="oe_highlight" />
-                </header>
-
                 <div>
                     <div class="row">
                         <div class="col-md-10">
