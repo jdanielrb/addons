@@ -9,20 +9,30 @@
     padding: 10px;
 }
 
-main {
+#main_div {
+    overflow-x: hidden;
+    background-color: red;
     width: 100vw;
-    height: 100vh;
     position: relative;
 }
 
 #uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
 }
 
 #dos {
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #tres {
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
