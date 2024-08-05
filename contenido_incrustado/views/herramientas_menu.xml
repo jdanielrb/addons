@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="main_menu_action" name="Herramientas WTECH" sequence="100" />
+    <menuitem id="main_menu_action" name="Herramientas WTECH" sequence="1" />
 
     <menuitem id="01_item_menu_action" name="Asistencia" parent="main_menu_action"
         action="01_graficos_view_action" sequence="10" />
