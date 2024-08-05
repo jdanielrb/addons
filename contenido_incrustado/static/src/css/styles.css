@@ -10,7 +10,7 @@
 }
 
 #main_div {
-    overflow-x: hidden;
     display: block;
-    height: 100vh;
+    height: 90vh;
+    box-sizing: border-box;
 }
