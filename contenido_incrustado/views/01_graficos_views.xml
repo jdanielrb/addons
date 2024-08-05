@@ -4,7 +4,7 @@
         <field name="name">01_graficos.view_form</field>
         <field name="model">ir.ui.menu</field>
         <field name="arch" type="xml">
-            <form string="Contenido incrustado" class="background-image" edit="false"
+            <form string="Contenido incrustado" class="background-image" create="false" edit="false"
                 delete="false">
                 <div>
                     <div class="row">
@@ -19,7 +19,7 @@
                                 </div>
                                 <div class="card-body">
                                     <a href="http://localhost:8501" target="_blank"
-                                        class="btn btn-dark">Ver en una nueva ventana</a>
+                                        class="btn btn-dark">Pantalla completa</a>
                                 </div>
                             </div>
                             <div class="card mt-3">
@@ -27,9 +27,8 @@
                                     <h2>Información adicional</h2>
                                 </div>
                                 <div class="card-body">
-                                    <p>Utiliza este espacio para mostrar datos relevantes,
-                                        estadísticas o cualquier otra información
-                                        complementaria.</p>
+                                    <p>Utiliza esta herramienta para obtener los registros de
+                                        asistencias.</p>
                                 </div>
                             </div>
                         </div>
