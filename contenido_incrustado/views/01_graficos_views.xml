@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <form string="Contenido incrustado" class="background-image" create="false"
                 edit="false" delete="false">
-                <div id="div_first_attendance">
+                <div id="div_main">
                     <div id="div_second_attendance" class="row">
                         <div id="div_third_attendance" class="col-md-10">
                             <iframe id="iframe_attendance" src="http://localhost:8501"></iframe>
