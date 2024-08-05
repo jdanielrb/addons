@@ -9,7 +9,7 @@
                 <div>
                     <h1>Contenido incrustado</h1>
                     <div>
-                        <iframe src="https://drive.wtech-cs.com" width="100%" height="700"></iframe>
+                        <iframe src="http://localhost:8501" width="100%" height="700"></iframe>
                     </div>
                 </div>
             </form>
