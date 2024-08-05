@@ -7,7 +7,7 @@
             <form string="Contenido incrustado" class="background-image" create="false" edit="false"
                 delete="false">
                 <div id="div_main">
-                    <div id="div_third_attendance">
+                    <div id="div_third_pdf">
                         <iframe id="iframe_pdf" src="http://localhost:8501"></iframe>
                     </div>
                 </div>
