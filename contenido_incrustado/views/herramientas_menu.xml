@@ -2,7 +2,7 @@
 <odoo>
     <menuitem id="main_menu_root" name="Herramientas WTECH" sequence="1" />
 
-    <menuitem id="01_item_menu_action" name="Gráficos" parent="main_menu_root"
+    <menuitem id="01_item_menu_action" name="Asistencia" parent="main_menu_root"
         action="01_graficos_view_action" sequence="10" />
 
     <menuitem id="02_item_menu_action" name="Herramientas PDF" parent="main_menu_root"
