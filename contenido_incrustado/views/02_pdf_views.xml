@@ -6,8 +6,8 @@
         <field name="arch" type="xml">
             <form string="Contenido incrustado" class="background-image" create="false" edit="false"
                 delete="false">
-                <div>
-                    <div>
+                <div id="uno">
+                    <div id="tres">
                         <iframe src="http://localhost:8501" width="100%" height="700"></iframe>
                     </div>
                 </div>
