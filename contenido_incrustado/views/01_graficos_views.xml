@@ -6,10 +6,10 @@
         <field name="arch" type="xml">
             <form string="Contenido incrustado" class="background-image" create="false"
                 edit="false" delete="false">
-                <div id="uno">
-                    <div id="dos" class="row">
-                        <div id="tres" class="col-md-10">
-                            <iframe src="http://localhost:8501"></iframe>
+                <div id="div_first_attendance">
+                    <div id="div_second_attendance" class="row">
+                        <div id="div_third_attendance" class="col-md-10">
+                            <iframe id="iframe_attendance" src="http://localhost:8501"></iframe>
                         </div>
                         <div class="col-md-2">
                             <div class="card">

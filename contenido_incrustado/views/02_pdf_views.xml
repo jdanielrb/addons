@@ -6,9 +6,9 @@
         <field name="arch" type="xml">
             <form string="Contenido incrustado" class="background-image" create="false" edit="false"
                 delete="false">
-                <div id="uno">
-                    <div id="tres">
-                        <iframe src="http://localhost:8501" width="100%" height="700"></iframe>
+                <div id="div_first_attendance">
+                    <div id="div_third_attendance">
+                        <iframe id="iframe_pdf" src="http://localhost:8501"></iframe>
                     </div>
                 </div>
             </form>
