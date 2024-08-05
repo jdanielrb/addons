@@ -8,8 +8,8 @@
                 edit="false" delete="false">
                 <div id="uno">
                     <div id="dos" class="row">
-                        <div class="col-md-10">
-                            <iframe src="http://localhost:8501" width="100%" height="100%"></iframe>
+                        <div id="tres" class="col-md-10">
+                            <iframe src="http://localhost:8501"></iframe>
                         </div>
                         <div class="col-md-2">
                             <div class="card">
