@@ -9,31 +9,7 @@
     padding: 10px;
 }
 
-/* 
-.background-image iframe {
-    position: relative;
-    z-index: 5;
-} */
-
-.o_control_panel {
-    background-color: #f9f9f9;
-    /* Cambiar el color de fondo */
-    padding: 10px;
-    /* Ajustar el espaciado interno */
-    border-bottom: 1px solid #ddd;
-    /* Añadir un borde inferior */
-}
-
-.o_cp_buttons .btn-primary {
-    background-color: #007bff;
-    /* Color del botón */
-    border-color: #007bff;
-    /* Borde del botón */
-}
-
-.o_searchview input[type="search"] {
-    width: 300px;
-    /* Ancho del campo de búsqueda */
-    margin-right: 10px;
-    /* Espacio entre el campo de búsqueda y los filtros */
+#main_div {
+    overflow-x: hidden;
+    background-color: black;
 }
