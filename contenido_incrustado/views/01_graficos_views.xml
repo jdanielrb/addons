@@ -19,8 +19,8 @@
                                     <h2>Opciones</h2>
                                 </div>
                                 <div class="card-body">
-                                    <p>Aquí puedes agregar botones, enlaces u otras opciones
-                                        relacionadas con el contenido incrustado.</p>
+                                    <a href="http://localhost:8501" target="_blank"
+                                        class="btn btn-light">Ver en una nueva ventana</a>
                                 </div>
                             </div>
                             <div class="card mt-3">
