@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <template id="assets_backend" name="contenido_incrustado assets"
+        inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="module" src="contenido_incrustado/static/src/js/ocultar_control_panel.js"></script>
+        </xpath>
+    </template>
+
     <record id="02_pdf_view_form" model="ir.ui.view">
         <field name="name">02_pdf.view_form</field>
         <field name="model">ir.ui.view</field>

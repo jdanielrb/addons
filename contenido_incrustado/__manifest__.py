@@ -3,7 +3,7 @@
     "author": "WTECH Ciudad Segura",
     "version": "1.0",
     "category": "tools",
-    # "depends": ["base"],
+    "depends": ["base", "web"],
     "data": [
         "views/01_graficos_views.xml",  # Primero la vista
         "views/02_pdf_views.xml",  # Primero la vista
@@ -13,7 +13,7 @@
     "assets": {
         "web.assets_backend": [
             "contenido_incrustado/static/src/css/styles.css",
-            'contenido_incrustado/static/src/js/ocultar_control_panel.js',
+            "contenido_incrustado/static/src/js/ocultar_control_panel.js",
         ],
     },
     "installable": True,
