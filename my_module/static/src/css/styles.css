@@ -1,0 +1,55 @@
+/* CODIGO GENERAL */
+
+.background-image {
+    background-image: url('/contenido_incrustado/static/src/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#div_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* CODIGO PARA LA VISTA DE ASISTENCIAS */
+
+#div_second_attendance {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#div_third_attendance {
+    height: 80vh;
+    display: flex;
+}
+
+#iframe_attendance {
+    width: 100%;
+    height: 100%;
+}
+
+/* CODIGO PARA LA VISTA DE HERRAMIENTAS PDF */
+
+#div_second_pdf {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#div_third_pdf {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+#iframe_pdf {
+    width: 100%;
+    height: 100%;
+}
