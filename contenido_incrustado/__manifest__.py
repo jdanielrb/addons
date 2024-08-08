@@ -3,7 +3,7 @@
     "author": "WTECH Ciudad Segura",
     "version": "1.0",
     "category": "tools",
-    "depends": ["base", "web"],
+    "depends": ["base"],
     "data": [
         "views/01_graficos_views.xml",  # Primero la vista
         "views/02_pdf_views.xml",  # Primero la vista
