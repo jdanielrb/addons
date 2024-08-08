@@ -13,7 +13,6 @@
     "assets": {
         "web.assets_backend": [
             "contenido_incrustado/static/src/css/styles.css",
-            "contenido_incrustado/static/src/js/ocultar_control_panel.js",
         ],
     },
     "installable": True,
