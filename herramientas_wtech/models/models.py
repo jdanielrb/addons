@@ -3,8 +3,8 @@
 from odoo import models, fields, api
 
 
-class my_module(models.Model):
-    _name = "my_module.my_module"
+class herramientas_wtech(models.Model):
+    _name = "herramientas_wtech.herramientas_wtech"
 
     name = fields.Char()
     value = fields.Integer()
