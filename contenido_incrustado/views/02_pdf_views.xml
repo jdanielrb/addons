@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- <template id="assets" inherit_id="web.assets_backend" name="Incluir JavaScript">
-        <xpath expr="." position="inside">
-            <script type="module" src="/contenido_incrustado/static/src/js/ocultar_control_panel.js" />
-        </xpath>
-    </template> -->
-
     <record id="02_pdf_view_form" model="ir.ui.view">
         <field name="name">02_pdf.view_form</field>
         <field name="model">ir.ui.view</field>
         <field name="arch" type="xml">
-            <form string="Contenido incrustado" class="background-image" create="false" edit="false"
+            <form string="Contenido incrustado" class="background-image o_form_nosheet"
+                create="false" edit="false"
                 delete="false">
                 <div id="div_main">
                     <div id="div_third_pdf">
