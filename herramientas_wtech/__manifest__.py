@@ -13,7 +13,7 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "my_module/static/src/css/styles.css",
+            "herramientas_wtech/static/src/css/styles.css",
         ],
     },
     "installable": True,
