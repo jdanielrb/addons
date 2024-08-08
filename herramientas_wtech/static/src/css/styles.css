@@ -12,15 +12,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 85vh;
+    height: 84vh;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    padding: 15px;
-    /* Añadido para mejor espaciado en dispositivos móviles */
-    box-sizing: border-box;
-    /* Asegura que el padding se incluye en el ancho total */
 }
 
 /* CODIGO PARA LA VISTA DE ASISTENCIAS */
@@ -28,17 +24,13 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    /* Permite que los elementos se envuelvan en pantallas pequeñas */
 }
 
 #div_third_attendance {
     flex: 1;
     height: 100%;
     display: flex;
-    margin-right: 20px;
-    box-sizing: border-box;
-    /* Asegura que el margen se incluya en el ancho total */
+    margin-right: 20px;/
 }
 
 #iframe_attendance {
@@ -53,8 +45,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin-bottom: 15px;
-    /* Añadido para mejor separación entre tarjetas */
 }
 
 .card-header {
@@ -92,41 +82,4 @@ body {
 /* Texto informativo */
 .card-body p {
     margin: 0;
-}
-
-/* Media Queries para Responsividad */
-
-/* Pantallas de tamaño pequeño (móviles) */
-@media (max-width: 767px) {
-    #div_main {
-        height: auto;
-        padding: 10px;
-    }
-
-    #div_second_attendance {
-        flex-direction: column;
-        /* Pone los elementos en una columna en lugar de fila */
-    }
-
-    #div_third_attendance {
-        margin-right: 0;
-        margin-bottom: 15px;
-        flex: none;
-        /* Permite que el div ocupe el ancho completo */
-    }
-
-    .card {
-        margin-bottom: 10px;
-    }
-}
-
-/* Pantallas de tamaño mediano (tabletas) */
-@media (min-width: 768px) and (max-width: 991px) {
-    #div_third_attendance {
-        margin-right: 10px;
-    }
-
-    .card {
-        margin-bottom: 15px;
-    }
 }
