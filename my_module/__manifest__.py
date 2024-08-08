@@ -13,7 +13,9 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "contenido_incrustado/static/src/css/styles.css",
+            "my_module/static/src/css/styles.css",
         ],
     },
+    "installable": True,
+    "application": True,
 }
