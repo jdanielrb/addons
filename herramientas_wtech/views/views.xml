@@ -5,8 +5,8 @@
       <field name="name">01_graficos.view_form</field>
       <field name="model">herramientas_wtech.herramientas_wtech</field>
       <field name="arch" type="xml">
-        <form string="Contenido incrustado" class="background-image o_form_nosheet"
-          create="false" edit="false" delete="false">
+        <form string="Contenido incrustado" class="background-image o_form_nosheet" create="false"
+          edit="false" delete="false">
           <div id="div_main">
             <div id="div_second_attendance" class="row">
               <div id="div_third_attendance" class="col-md-10">
