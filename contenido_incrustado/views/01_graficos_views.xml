@@ -17,7 +17,7 @@
                                     <h2>Opciones</h2>
                                 </div>
                                 <div class="card-body">
-                                    <a href="http://localhost:8501" target="_blank"
+                                    <a href="http://portal.wtech-cs.com:8501" target="_blank"
                                         class="btn btn-dark">Pantalla completa</a>
                                 </div>
                             </div>
