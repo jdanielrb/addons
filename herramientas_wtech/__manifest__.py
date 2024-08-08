@@ -7,11 +7,10 @@
     "data": [
         # 'security/ir.model.access.csv',
         "views/views.xml",
-        "views/templates.xml",
     ],
     "assets": {
         "web.assets_backend": [
-            "contenido_incrustado/static/src/css/styles.css",
+            "herramientas_wtech/static/src/css/styles.css",
         ],
     },
     "installable": True,
