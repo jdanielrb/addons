@@ -1,5 +1,5 @@
 {
-    "name": "Herramientas WTECH Ciudad Segura",
+    "name": "(old) contenido_incrustado",
     "author": "WTECH Ciudad Segura",
     "version": "1.0",
     "category": "tools",

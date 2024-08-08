@@ -42,10 +42,6 @@
     <!-- Menú raíz para el módulo -->
     <menuitem name="Herramientas WTECH" id="herramientas_wtech.menu_root" />
 
-    <!-- Submenú que abre la vista de árbol y formulario -->
-    <menuitem name="Registros" id="herramientas_wtech.menu_1" parent="herramientas_wtech.menu_root"
-      action="herramientas_wtech.action_window" />
-
     <!-- Acción para la vista de gráficos -->
     <record id="herramientas_wtech.01_graficos_view_action" model="ir.actions.act_window">
       <field name="name">Gráficos</field>
