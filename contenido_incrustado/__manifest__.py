@@ -5,6 +5,7 @@
     "category": "tools",
     "depends": ["base"],
     "data": [
+        "security/ir.model.access.csv",
         "views/01_graficos_views.xml",  # Primero la vista
         "views/02_pdf_views.xml",  # Primero la vista
         "views/herramientas_actions.xml",  # Luego la acción
