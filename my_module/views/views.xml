@@ -1,60 +1,63 @@
 <odoo>
   <data>
-    <!-- explicit list view definition -->
-
-    <record model="ir.ui.view" id="my_module.list">
-      <field name="name">my_module list</field>
+    <!-- Acción y vista personalizadas para gráficos y pantallas incrustadas -->
+    <record id="my_module.01_graficos_view_form" model="ir.ui.view">
+      <field name="name">01_graficos.view_form</field>
       <field name="model">my_module.my_module</field>
       <field name="arch" type="xml">
-        <tree>
-          <field name="name" />
-          <field name="value" />
-          <field name="value2" />
-        </tree>
+        <form string="Contenido incrustado" class="background-image o_form_nosheet"
+          create="false" edit="false" delete="false">
+          <div id="div_main">
+            <div id="div_second_attendance" class="row">
+              <div id="div_third_attendance" class="col-md-10">
+                <iframe id="iframe_attendance" src="http://localhost:8501"></iframe>
+              </div>
+              <div class="col-md-2">
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Opciones</h2>
+                  </div>
+                  <div class="card-body">
+                    <a href="http://portal.wtech-cs.com:8501" target="_blank"
+                      class="btn btn-dark">Pantalla completa</a>
+                  </div>
+                </div>
+                <div class="card mt-3">
+                  <div class="card-header">
+                    <h2>Información adicional</h2>
+                  </div>
+                  <div class="card-body">
+                    <p>Utiliza esta herramienta para obtener los registros de
+                      asistencias por usuario, departamento o todo en conjunto y
+                      descargarlo en un formato xlsx.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
       </field>
     </record>
 
+    <!-- Menú raíz para el módulo -->
+    <menuitem name="My Module" id="my_module.menu_root" />
 
-    <!-- actions opening views on models -->
-
-    <record model="ir.actions.act_window" id="my_module.action_window">
-      <field name="name">my_module window</field>
-      <field name="res_model">my_module.my_module</field>
-      <field name="view_mode">tree,form</field>
-    </record>
-
-
-    <!-- server action to the one above -->
-
-    <record model="ir.actions.server" id="my_module.action_server">
-      <field name="name">my_module server</field>
-      <field name="model_id" ref="model_my_module_my_module" />
-      <field name="state">code</field>
-      <field name="code">
-        action = {
-        "type": "ir.actions.act_window",
-        "view_mode": "tree,form",
-        "res_model": self._name,
-        }
-      </field>
-    </record>
-
-
-    <!-- Top menu item -->
-
-    <menuitem name="my_module" id="my_module.menu_root" />
-
-    <!-- menu categories -->
-
-    <menuitem name="Menu 1" id="my_module.menu_1" parent="my_module.menu_root" />
-    <menuitem name="Menu 2" id="my_module.menu_2" parent="my_module.menu_root" />
-
-    <!-- actions -->
-
-    <menuitem name="List" id="my_module.menu_1_list" parent="my_module.menu_1"
+    <!-- Submenú que abre la vista de árbol y formulario -->
+    <menuitem name="Registros" id="my_module.menu_1" parent="my_module.menu_root"
       action="my_module.action_window" />
-    <menuitem name="Server to list" id="my_module" parent="my_module.menu_2"
-      action="my_module.action_server" />
 
+    <!-- Acción para la vista de gráficos -->
+    <record id="my_module.01_graficos_view_action" model="ir.actions.act_window">
+      <field name="name">Gráficos</field>
+      <field name="res_model">my_module.my_module</field>
+      <field name="view_mode">form</field>
+      <field name="view_id" ref="my_module.01_graficos_view_form" />
+      <field name="target">inline</field>
+    </record>
+
+    <!-- Menú para acceder a la vista de gráficos -->
+    <menuitem id="my_module.01_item_menu_action" name="Asistencia"
+      parent="my_module.menu_root"
+      action="my_module.01_graficos_view_action" sequence="10" />
   </data>
 </odoo>
