@@ -10,7 +10,7 @@
           <div id="div_main">
             <div id="div_second_attendance" class="row">
               <div id="div_third_attendance" class="col-md-10">
-                <iframe id="iframe_attendance" src="http://31.220.17.192:8501"></iframe>
+                <iframe id="iframe_attendance" src="https://asistencia.wtech-cs.com"></iframe>
               </div>
               <div class="col-md-2">
                 <div class="card">
@@ -18,7 +18,7 @@
                     <h2>Opciones</h2>
                   </div>
                   <div class="card-body">
-                    <a href="http://portal.wtech-cs.com:8501" target="_blank"
+                    <a href="http://asistencia.wtech-cs.com" target="_blank"
                       class="btn btn-dark">Pantalla completa</a>
                   </div>
                 </div>
