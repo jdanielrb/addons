@@ -2,29 +2,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
     color: #333;
 }
 
 /* Formulario principal */
-.background-image {
-    background-image: url('/herramientas_wtech/static/src/img/fondo.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #div_main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     height: 90vh;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
