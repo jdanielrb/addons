@@ -17,6 +17,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    padding: 15px;
+    /* Añadido para mejor espaciado en dispositivos móviles */
+    box-sizing: border-box;
+    /* Asegura que el padding se incluye en el ancho total */
 }
 
 /* CODIGO PARA LA VISTA DE ASISTENCIAS */
@@ -24,8 +28,8 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    /* Cambiamos a columna en pantallas pequeñas */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en pantallas pequeñas */
 }
 
 #div_third_attendance {
@@ -33,8 +37,8 @@ body {
     height: 100%;
     display: flex;
     margin-right: 20px;
-    order: 2;
-    /* Para que el iframe aparezca debajo en pantallas pequeñas */
+    box-sizing: border-box;
+    /* Asegura que el margen se incluya en el ancho total */
 }
 
 #iframe_attendance {
@@ -49,10 +53,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin: 1em;
-    /* Espacio entre tarjetas */
-    flex: 1 0 300px;
-    /* Para que las tarjetas se ajusten y tengan un ancho mínimo */
+    margin-bottom: 15px;
+    /* Añadido para mejor separación entre tarjetas */
 }
 
 .card-header {
@@ -81,10 +83,6 @@ body {
     transition: background-color 0.3s;
     display: block;
     text-align: center;
-    width: auto;
-    /* Para que el botón se ajuste al contenido */
-    margin: 0 auto;
-    /* Centrar el botón */
 }
 
 .btn-dark:hover {
@@ -96,28 +94,39 @@ body {
     margin: 0;
 }
 
-/* Media queries para ajustar el diseño en pantallas pequeñas */
-@media (max-width: 768px) {
+/* Media Queries para Responsividad */
+
+/* Pantallas de tamaño pequeño (móviles) */
+@media (max-width: 767px) {
     #div_main {
-        flex-direction: column;
-        /* Apilar elementos verticalmente */
         height: auto;
-        /* Altura automática para adaptarse al contenido */
-        padding: 1em;
-        /* Espacio interno en pantallas pequeñas */
+        padding: 10px;
     }
 
     #div_second_attendance {
         flex-direction: column;
-        /* Apilar elementos verticalmente */
-        order: 1;
-        /* Para que las tarjetas aparezcan primero */
+        /* Pone los elementos en una columna en lugar de fila */
     }
 
     #div_third_attendance {
         margin-right: 0;
-        /* Eliminar margen derecho en pantallas pequeñas */
-        order: 2;
-        /* Para que el iframe aparezca debajo */
+        margin-bottom: 15px;
+        flex: none;
+        /* Permite que el div ocupe el ancho completo */
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+/* Pantallas de tamaño mediano (tabletas) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #div_third_attendance {
+        margin-right: 10px;
+    }
+
+    .card {
+        margin-bottom: 15px;
     }
 }
