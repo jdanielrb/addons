@@ -6,7 +6,7 @@
       <field name="model">herramientas_wtech.herramientas_wtech</field>
       <field name="arch" type="xml">
         <form string="Contenido incrustado" create="false"
-          edit="false" delete="false" toolbar="false">
+          edit="false" delete="false">
           <div id="div_main">
             <div id="div_second_attendance" class="row">
               <div id="div_third_attendance" class="col-md-10">
