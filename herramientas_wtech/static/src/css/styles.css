@@ -6,6 +6,11 @@ body {
     color: #333;
 }
 
+/* Oculta la barra de herramientas completa */
+.o_control_panel {
+    display: none !important;
+}
+
 /* Formulario principal */
 #div_main {
     display: flex;
