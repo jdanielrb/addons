@@ -5,8 +5,7 @@
       <field name="name">01_graficos.view_form</field>
       <field name="model">herramientas_wtech.herramientas_wtech</field>
       <field name="arch" type="xml">
-        <form string="Contenido incrustado" create="false"
-          edit="false" delete="false">
+        <form string="Contenido incrustado" create="false" edit="false" delete="false">
           <div id="div_main">
             <div id="div_second_attendance" class="row">
               <div id="div_third_attendance" class="col-md-10">
@@ -48,7 +47,6 @@
       <field name="res_model">herramientas_wtech.herramientas_wtech</field>
       <field name="view_mode">form</field>
       <field name="view_id" ref="herramientas_wtech.01_graficos_view_form" />
-      <field name="target">inline</field>
     </record>
 
     <!-- Menú para acceder a la vista de gráficos -->
