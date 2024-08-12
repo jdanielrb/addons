@@ -1,8 +1,8 @@
 <odoo>
   <data>
     <!-- Acción y vista personalizadas para gráficos y pantallas incrustadas -->
-    <record id="herramientas_wtech.01_graficos_view_form" model="ir.ui.view">
-      <field name="name">01_graficos.view_form</field>
+    <record id="herramientas_wtech.asistencias_view_form" model="ir.ui.view">
+      <field name="name">asistencias.view_form</field>
       <field name="model">herramientas_wtech.herramientas_wtech</field>
       <field name="arch" type="xml">
         <form string="Reporte de asistencias" create="false" edit="false" delete="false">
@@ -43,16 +43,16 @@
     <menuitem name="Herramientas WTECH" id="herramientas_wtech.menu_root" />
 
     <!-- Acción para la vista de gráficos -->
-    <record id="herramientas_wtech.01_graficos_view_action" model="ir.actions.act_window">
+    <record id="herramientas_wtech.asistencias_view_action" model="ir.actions.act_window">
       <field name="name">Gráficos</field>
       <field name="res_model">herramientas_wtech.herramientas_wtech</field>
       <field name="view_mode">form</field>
-      <field name="view_id" ref="herramientas_wtech.01_graficos_view_form" />
+      <field name="view_id" ref="herramientas_wtech.asistencias_view_form" />
     </record>
 
     <!-- Menú para acceder a la vista de gráficos -->
     <menuitem id="herramientas_wtech.01_item_menu_action" name="Asistencia"
       parent="herramientas_wtech.menu_root"
-      action="herramientas_wtech.01_graficos_view_action" sequence="10" />
+      action="herramientas_wtech.asistencias_view_action" sequence="10" />
   </data>
 </odoo>
