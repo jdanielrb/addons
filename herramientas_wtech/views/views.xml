@@ -51,66 +51,8 @@
     </record>
 
     <!-- Menú para acceder a la vista de gráficos -->
-    <menuitem id="herramientas_wtech.01_item_menu_action" name="Asistencia"
+    <menuitem id="herramientas_wtech.menu_asistencia" name="Asistencia"
       parent="herramientas_wtech.menu_root"
       action="herramientas_wtech.asistencias_view_action" sequence="10" />
-  </data>
-
-
-
-
-  <data>
-    <!-- Acción y vista personalizadas para gráficos y pantallas incrustadas -->
-    <record id="herramientas_wtech.passgen_view_form" model="ir.ui.view">
-      <field name="name">passgen.view_form</field>
-      <field name="model">herramientas_wtech.herramientas_wtech</field>
-      <field name="arch" type="xml">
-        <form string="Generador de contraseñas" create="false" edit="false" delete="false">
-          <div id="div_main">
-            <div id="div_second_attendance" class="row">
-              <div id="div_third_attendance" class="col-md-10">
-                <iframe id="iframe_attendance" src="https://passgen.wtech-cs.com"></iframe>
-              </div>
-              <div class="col-md-2">
-                <div class="card">
-                  <div class="card-header">
-                    <h2>Opciones</h2>
-                  </div>
-                  <div class="card-body">
-                    <a href="https://passgen.wtech-cs.com" target="_blank"
-                      class="btn btn-dark">Pantalla completa</a>
-                  </div>
-                </div>
-                <div class="card mt-3">
-                  <div class="card-header">
-                    <h2>Información adicional</h2>
-                  </div>
-                  <div class="card-body">
-                    <p>Utiliza esta herramienta para generar contraseñas seguras para tus inicios de
-                      sesiones.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </field>
-    </record>
-
-    <!-- Menú raíz para el módulo -->
-    <menuitem name="Herramientas WTECH" id="herramientas_wtech.menu_root" />
-
-    <!-- Acción para la vista de gráficos -->
-    <record id="herramientas_wtech.passgen_view_action" model="ir.actions.act_window">
-      <field name="name">Generador</field>
-      <field name="res_model">herramientas_wtech.herramientas_wtech</field>
-      <field name="view_mode">form</field>
-      <field name="view_id" ref="herramientas_wtech.passgen_view_form" />
-    </record>
-
-    <!-- Menú para acceder a la vista de gráficos -->
-    <menuitem id="herramientas_wtech.01_item_menu_action" name="Generador de contraseñas"
-      parent="herramientas_wtech.menu_root"
-      action="herramientas_wtech.passgen_view_action" sequence="20" />
   </data>
 </odoo>
