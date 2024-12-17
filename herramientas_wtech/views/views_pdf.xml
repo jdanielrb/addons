@@ -9,7 +9,7 @@
                     <div id="div_main">
                         <div id="div_second_attendance" class="row">
                             <div id="div_third_attendance" class="col-md-12">
-                                <iframe id="iframe_attendance" src="https://pdf.wtech-cs.com"></iframe>
+                                <iframe id="iframe_attendance" src="https://pdftools.wtech-cs.com"></iframe>
                             </div>
                         </div>
                     </div>
