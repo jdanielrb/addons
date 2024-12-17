@@ -2,13 +2,14 @@
 {
     "name": "Herramientas WTECH Ciudad Segura",
     "author": "WTECH Ciudad Segura",
-    "version": "1.0",
+    "version": "2.0",
     "category": "tools",
     "depends": ["base"],
     # always loaded
     "data": [
         "security/ir.model.access.csv",
         "views/views.xml",
+        "views/views_passgen.xml",
         "views/templates.xml",
     ],
     "assets": {
