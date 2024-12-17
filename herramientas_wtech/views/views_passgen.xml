@@ -52,6 +52,6 @@
         <!-- Menú para acceder a la vista de gráficos -->
         <menuitem id="herramientas_wtech.menu_passgen" name="Generador de contraseñas"
             parent="herramientas_wtech.menu_root"
-            action="herramientas_wtech.passgen_view_action" sequence="20" />
+            action="herramientas_wtech.passgen_view_action" sequence="30" />
     </data>
 </odoo>
