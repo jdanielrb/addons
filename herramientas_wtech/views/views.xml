@@ -9,10 +9,42 @@
           <div id="div_main">
             <div id="div_second_attendance" class="row">
               <div id="div_third_attendance" class="col-md-12">
-
+                <div class="container">
+                  <div class="row">
+                    <!-- Primera fila de botones -->
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 1</button>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 2</button>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 3</button>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 4</button>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <!-- Segunda fila de botones -->
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 5</button>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 6</button>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 7</button>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-primary btn-block">Botón 8</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
         </form>
       </field>
     </record>
