@@ -8,8 +8,8 @@
         <form string="Reporte de menu" create="false" edit="false" delete="false">
           <div id="div_main">
             <div id="div_second_attendance" class="row">
-              <div id="div_third_attendance" class="col-md-10">
-                <iframe id="iframe_attendance" src="https://asistencia.wtech-cs.com"></iframe>
+              <div id="div_third_attendance" class="col-md-12">
+
               </div>
             </div>
           </div>
