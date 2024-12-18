@@ -31,6 +31,6 @@
         <!-- Menú para acceder a la vista de gráficos -->
         <menuitem id="herramientas_wtech.menu_pdf" name="Herramientas PDF"
             parent="herramientas_wtech.menu_root"
-            action="herramientas_wtech.pdf_view_action" sequence="20" />
+            action="herramientas_wtech.pdf_view_action" sequence="30" />
     </data>
 </odoo>

@@ -9,9 +9,9 @@
     "data": [
         "security/ir.model.access.csv",
         "views/views.xml",
-        "views/views_passgen.xml",
+        "views/views_asistencia.xml",
         "views/views_pdf.xml",
-        "views/templates.xml",
+        "views/views_passgen.xml",
     ],
     "assets": {
         "web.assets_backend": [
